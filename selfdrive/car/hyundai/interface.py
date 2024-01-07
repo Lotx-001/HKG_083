@@ -42,7 +42,7 @@ class CarInterface(CarInterfaceBase):
 
     # genesis
     if candidate == CAR.GENESIS:
-      ret.mass = 1900. + STD_CARGO_KG
+      ret.mass = 3000. + STD_CARGO_KG
       ret.wheelbase = 3.01
     elif candidate == CAR.GENESIS_G70:
       ret.mass = 1640. + STD_CARGO_KG
