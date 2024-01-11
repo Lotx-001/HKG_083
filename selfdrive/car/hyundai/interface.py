@@ -65,21 +65,21 @@ class CarInterface(CarInterfaceBase):
       ret.wheelbase = 2.84
       tire_stiffness_factor = 0.65
     elif candidate in [CAR.SONATA19, CAR.SONATA19_HEV]:
-      ret.mass = 4497. * CV.LB_TO_KG
+      ret.mass = 7000. * CV.LB_TO_KG
       ret.wheelbase = 2.804
     elif candidate == CAR.SONATA_LF_TURBO:
       ret.mass = 1590. + STD_CARGO_KG
       ret.wheelbase = 2.805
       tire_stiffness_factor = 0.65
     elif candidate == CAR.PALISADE:
-      ret.mass = 1999. + STD_CARGO_KG
+      ret.mass = 4666. + STD_CARGO_KG
       ret.wheelbase = 2.90
     elif candidate in [CAR.ELANTRA, CAR.ELANTRA_GT_I30]:
       ret.mass = 1275. + STD_CARGO_KG
       ret.wheelbase = 2.7
       tire_stiffness_factor = 0.385    # stiffnessFactor settled on 1.0081302973865127
     elif candidate == CAR.KONA:
-      ret.mass = 1275. + STD_CARGO_KG
+      ret.mass = 6547. + STD_CARGO_KG
       ret.wheelbase = 2.7
       tire_stiffness_factor = 0.385
     elif candidate in [CAR.KONA_HEV, CAR.KONA_EV]:
