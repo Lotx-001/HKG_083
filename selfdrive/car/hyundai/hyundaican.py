@@ -13,7 +13,7 @@ def create_lkas11(packer, frame, car_fingerprint, apply_steer, steer_req,
   values = copy.copy(lkas11)
   #values["CF_Lkas_LdwsSysState"] = sys_state
   values["CF_Lkas_LdwsSysState"] = 3 if enabled else sys_state
-  values["CF_Lkas_SysWarning"] = 3 if sys_warning else 0
+  values["CF_Lkas_SysWarning"] = 2 if sys_warning else 0
   values["CF_Lkas_LdwsLHWarning"] = left_lane_depart
   values["CF_Lkas_LdwsRHWarning"] = right_lane_depart
   values["CR_Lkas_StrToqReq"] = apply_steer
