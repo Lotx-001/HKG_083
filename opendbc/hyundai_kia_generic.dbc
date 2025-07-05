@@ -56,7 +56,7 @@ BO_ 1530 ODS11: 8 ODS
  SG_ CF_Ods_PrcCmd : 1|1@1+ (1.0,0.0) [0.0|1.0] ""  Dummy
  SG_ CF_Ods_BtsFail : 3|1@1+ (1.0,0.0) [0.0|1.0] ""  Dummy
  SG_ CF_Ods_AcuRcvSN : 4|1@1+ (1.0,0.0) [0.0|1.0] ""  ACU
- SG_ CF_Ods_EolCal : 5|1@1+ (1.0,0.0) [0.0|1.0] ""  ACU
+ SG_ CF_Ods_EolCal : 6|1@1+ (1.0,0.0) [0.0|1.0] ""  ACU
  SG_ CF_Ods_PsFail : 6|1@1+ (1.0,0.0) [0.0|1.0] ""  ACU
  SG_ CF_Ods_EcuFail : 7|1@1+ (1.0,0.0) [0.0|1.0] ""  ACU
  SG_ CF_Ods_WgtStat : 8|1@1+ (1.0,0.0) [0.0|1.0] ""  ACU
